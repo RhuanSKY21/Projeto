@@ -1,76 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Livraria Garantia</title>
-    <link rel="stylesheet" href="css/css.css">
-  </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato | Livraria Garantia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/css.css">
+</head>
 <body>
- <header class="navbar">
-    <div class="logo">📖 Livraria Garantia 📖</div>
-    <nav>
-      <ul class="nav-links">
-        <li><a href="index.html" class="active">Início</a></li>
-        <li><a href="produto.html" class="active">Produtos</a></li>
-        <li><a href="sobre.html" class="active">Sobre</a></li>
-        <li><a href="contato.html" class="active">Contato</a></li>
-        <li><a href="login.html" class="active">Login</a></li>
-        <li><a href="dashboard.html">Dashboard</a></li>
-      </ul>
-    </nav>
-  </header>   
-
-  <section class="contatos-header">
-    <div class="container">
-      <h1>Contatos</h1>
-      <p>Formulário a ser preenchido.</p>
-    </div>
-  </section>
-     <div class="form-group">
-  
-            <div class="code-box">
-
-      <div class="form-group">
-            <label for="nome">Nome</label>
-            <input type="text" id="nome" placeholder="Digite seu nome">
-            <div class="code-box">
-            
-          <div class="form-group">
-            <label for="email">E-mail</label>
-            <input type="email" id="email" placeholder="Digite seu e-mail">
-            <div class="code-box">
-              
-          <div class="form-group">
-            <label for="assunto">Assunto</label>
-            <select id="assunto">
-              <option value="duvida">Dúvida</option>
-              <option value="sugestao">Sugestão</option>
-              <option value="outros">Outros</option>
-            </select>
-
-          <div class="form-group">
-            <label for="mensagem">Mensagem</label>
-            <textarea id="mensagem" rows="4" placeholder="Digite sua mensagem"></textarea>
-            <div class="code-box">
-              
-
-          <div class="form-group">
-            <button type="submit" class="btn-submit">Enviar mensagem</button>
-            <div class="code-box">
-              
-        </form>
-      </div>
-
+  <header class="navbar">
+    <a class="logo" href="index.html"><span class="marca" aria-hidden="true"></span>Livraria Garantia</a>
+    <nav aria-label="Principal"><ul class="nav-links"><li><a href="index.html">Início</a></li><li><a href="produto.html">Produtos</a></li><li><a href="sobre.html">Sobre</a></li><li><a href="contato.html" aria-current="page">Contato</a></li><li><a href="login.html">Login</a></li><li><a href="dashboard.html">Dashboard</a></li></ul></nav>
+  </header>
+  <section class="page-header"><div class="container"><h1>Contato</h1><p>Preencha o formulário e responderemos em breve.</p></div></section>
+  <main class="container">
+    <div class="formulario-container">
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome" autocomplete="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="Digite seu e-mail" autocomplete="email" required>
+        </div>
+        <div class="form-group">
+          <label for="assunto">Assunto</label>
+          <select id="assunto" name="assunto">
+            <option value="duvida">Dúvida</option>
+            <option value="sugestao">Sugestão</option>
+            <option value="outros">Outros</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem" required></textarea>
+        </div>
+        <button type="submit" class="btn">Enviar mensagem</button>
+      </form>
     </div>
   </main>
-
-      <div class="formulario-container">
-        <form>
-<footer class="footer">
+  <footer class="footer">
     <div class="footer-content">
       <p><strong>Livraria Garantia</strong> - Melhor lugar para um livro</p>
-      <p>Rua do condado, n° 9¾ - Recife, PE | (81) 007 - 188</p>
+      <p>Rua do Condado, nº 9¾ - Recife, PE | (81) 007-188</p>
       <p class="copyright">&copy; Livraria Garantia - Todos os direitos reservados a quem pagar.</p>
     </div>
   </footer>
