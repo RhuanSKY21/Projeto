@@ -1,1 +1,2 @@
-Este é um projeto de criação de loja para a livraria garantia, para se obter a melhor experiencia online.
+# Livraria Garantia . atualização 1.2
+
