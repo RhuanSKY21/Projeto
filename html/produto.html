@@ -1,61 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Livraria Garantia</title>
-    <link rel="stylesheet" href="css/css.css">
-  </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtos | Livraria Garantia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/css.css">
+</head>
 <body>
- <header class="navbar">
-    <div class="logo">📖 Livraria Garantia 📖</div>
-    <nav>
-      <ul class="nav-links">
-        <li><a href="index.html" class="active">Início</a></li>
-        <li><a href="produto.html" class="active">Produtos</a></li>
-        <li><a href="sobre.html" class="active">Sobre</a></li>
-        <li><a href="contato.html" class="active">Contato</a></li>
-        <li><a href="login.html" class="active">Login</a></li>
-        <li><a href="dashboard.html">Dashboard</a></li>
-      </ul>
-    </nav>
-  </header>   
-
-  <section class="produtos-header">
-    <div class="container">
-      <h1>Produtos</h1>
-      <p>Catalógo da nossa loja.</p>
+  <header class="navbar">
+    <a class="logo" href="index.html"><span class="marca" aria-hidden="true"></span>Livraria Garantia</a>
+    <nav aria-label="Principal"><ul class="nav-links"><li><a href="index.html">Início</a></li><li><a href="produto.html" aria-current="page">Produtos</a></li><li><a href="sobre.html">Sobre</a></li><li><a href="contato.html">Contato</a></li><li><a href="login.html">Login</a></li><li><a href="dashboard.html">Dashboard</a></li></ul></nav>
+  </header>
+  <section class="page-header"><div class="container"><h1>Produtos</h1><p>Catálogo da nossa loja.</p></div></section>
+  <main class="container">
+    <div class="grid-produtos">
+      <article class="card-produto">
+        <div class="capa"><img src="img/hobbit.jpg" alt="Capa do livro O Hobbit" loading="lazy"></div>
+        <h3>O Hobbit</h3>
+        <p class="descricao">Edição com mapas, capa dura, fitilho, as ilustrações originais de J.R.R. Tolkien e um pôster de Valfenda exclusivo!</p>
+        <span class="preco">R$ 42,89</span>
+      </article>
+      <article class="card-produto">
+        <div class="capa"><img src="img/crepusculo.jpg" alt="Capa do livro Crepúsculo" loading="lazy"></div>
+        <h3>Crepúsculo</h3>
+        <p class="descricao">Crepúsculo poderia ser uma história comum, não fosse um elemento irresistível: o objeto da paixão da protagonista é um vampiro. Assim, soma-se à paixão um perigo sobrenatural temperado com muito suspense, e o resultado é uma leitura de tirar o fôlego. Um romance repleto das angústias e incertezas da juventude: o arrebatamento, a atração, a ansiedade que antecede cada palavra, cada gesto, e todos os medos.</p>
+        <span class="preco">R$ 53,10</span>
+      </article>
     </div>
-  </section>
-
-  <div class="grid-produtos"></div>
-  <div class="card-produto">
-          <div class="card-imagem-placeholder">
-            <span><img src="https://imagens.disal.com.br/produtos/ampliada/5724465.jpg" width="160" height="120"></span>
-          </div>
-          <h3>O Hobbit</h3>
-          <p class="descricao">Edição com mapas, capa dura, fitilho, as ilustrações originais de J.R.R. Tolkien e um pôster de Valfenda exclusivo!</p>
-          <span class="preco">R$ 42,89</span>
-          <div class="code-box">
-            
-          </div>
-        </div>
-
-        <div class="card-produto">
-          <div class="card-imagem-placeholder">
-            <span><img src="https://m.media-amazon.com/images/I/618fXbK+OkL._AC_UF1000,1000_QL80_.jpg" width="160" height="120"></span>
-          </div>
-          <h3>Crepúsculo</h3>
-          <p class="descricao">Crepúsculo poderia ser uma história comum, não fosse um elemento irresistível: o objeto da paixão da protagonista é um vampiro. Assim, soma-se à paixão um perigo sobrenatural temperado com muito suspense, e o resultado é uma leitura de tirar o fôlego. Um romance repleto das angústias e incertezas da juventude - o arrebatamento, a atração, a ansiedade que antecede cada palavra, cada gesto, e todos os medos.</p>
-          <span class="preco">R$ 53,10</span>
-          <div class="code-box">
-          
-          </div>
-        </div>
-<footer class="footer">
+  </main>
+  <footer class="footer">
     <div class="footer-content">
       <p><strong>Livraria Garantia</strong> - Melhor lugar para um livro</p>
-      <p>Rua do condado, n° 9¾ - Recife, PE | (81) 007 - 188</p>
+      <p>Rua do Condado, nº 9¾ - Recife, PE | (81) 007-188</p>
       <p class="copyright">&copy; Livraria Garantia - Todos os direitos reservados a quem pagar.</p>
     </div>
   </footer>

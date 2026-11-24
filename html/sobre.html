@@ -1,70 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/css.css">
-    <title>Livraria Garantia</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre nós | Livraria Garantia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/css.css">
 </head>
 <body>
-<header class="navbar">
-    <div class="logo">📖 Livraria Garantia 📖</div>
-    <nav>
-      <ul class="nav-links">
-        <li><a href="index.html" class="active">Início</a></li>
-        <li><a href="produto.html" class="active">Produtos</a></li>
-        <li><a href="sobre.html" class="active">Sobre</a></li>
-        <li><a href="contato.html" class="active">Contato</a></li>
-        <li><a href="login.html" class="active">Login</a></li>
-        <li><a href="dashboard.html">Dashboard</a></li>
-      </ul>
-    </nav>
-  </header>    
-
-  <section class="sobre-header">
-    <div class="container">
-      <h1>Sobre nós</h1>
-      <p>Informações.</p>
-    </div>
-  </section>
-  <main class="container"></main>
-  
-  <section class="sobre-hero">
-      <div class="hero-box">
-
-        <div class="ilustracao-container">
-          <div class="ilustracao-placeholder">
-            <span class="emoji">📖</span>
-          </div>
-          <div class="code-box">
-            <h4>Quem somos ?</h4>
-            <ul>
-            </ul>
-          </div>
-        </div>
-
-        <div class="texto-container">
-          <h2>Somos uma livraria para te ajudar a ler mais</h2>
-          <p>Temos os melhores preços e um catalógo intermináveis.</p>
-          <p>E iremos propor um dos melhores atendimentos.</p>
-
-          <div class="code-box">
-            <h4>E somos também uma experiência maravilhosa.</h4>
-            <ul>
-              
-            </ul>
-          </div>
-        </div>
-
+  <header class="navbar">
+    <a class="logo" href="index.html"><span class="marca" aria-hidden="true"></span>Livraria Garantia</a>
+    <nav aria-label="Principal"><ul class="nav-links"><li><a href="index.html">Início</a></li><li><a href="produto.html">Produtos</a></li><li><a href="sobre.html" aria-current="page">Sobre</a></li><li><a href="contato.html">Contato</a></li><li><a href="login.html">Login</a></li><li><a href="dashboard.html">Dashboard</a></li></ul></nav>
+  </header>
+  <section class="page-header"><div class="container"><h1>Sobre nós</h1><p>Informações.</p></div></section>
+  <main class="container">
+    <section class="sobre-grid">
+      <figure class="ilustracao">
+        <div class="selo" aria-hidden="true">📖</div>
+        <figcaption>Quem somos?</figcaption>
+      </figure>
+      <div class="texto-container">
+        <h2>Somos uma livraria para ajudar você a ler mais</h2>
+        <p>Temos os melhores preços e um catálogo interminável.</p>
+        <p>E vamos oferecer um dos melhores atendimentos.</p>
+        <p class="destaque">Somos também uma experiência maravilhosa.</p>
       </div>
     </section>
+  </main>
   <footer class="footer">
     <div class="footer-content">
       <p><strong>Livraria Garantia</strong> - Melhor lugar para um livro</p>
-      <p>Rua do condado, n° 9¾ - Recife, PE | (81) 007 - 188</p>
+      <p>Rua do Condado, nº 9¾ - Recife, PE | (81) 007-188</p>
       <p class="copyright">&copy; Livraria Garantia - Todos os direitos reservados a quem pagar.</p>
     </div>
   </footer>
-
 </body>
 </html>
